@@ -1,7 +1,26 @@
 aid: touchten
 name: Touchten
-description: Touchten is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Touchten (Touchten Pte. Ltd.) is an award-winning mobile game studio
+  headquartered in Jakarta, Indonesia, and an early 500 Global (500 Startups) portfolio
+  company. Its casual games - including Piper's Pet Cafe, Royal Garden Tales, Dessert
+  Chain, Warung Chain Go Food Express, and the Teka-Teki Saku (TTS) crossword series -
+  are published on the App Store and Google Play, are played by millions worldwide,
+  and cater especially to the underserved women gamers market in the US and Europe.
+  Touchten won the Google Play Indonesia Games Contest and received the Forbes
+  Indonesia Rising Global Stars Award. The company publishes no developer portal or
+  public API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.touchten.com/dist/favicon/android-icon-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/touchten/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Casual Games
+- Entertainment
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://touchten.com
+  url: https://www.touchten.com/
+- type: DomainSecurity
+  url: security/touchten-domain-security.yml
+- type: LLMsTxt
+  url: llms/touchten-llms.txt
+- type: PrivacyPolicy
+  url: https://www.touchten.com/privacy-policy.html
+- type: Support
+  url: https://www.touchten.com/contact-us.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of the touchten.com well-known surface
+host: https://www.touchten.com
+notes: touchten.com 301-redirects to www.touchten.com; every well-known discovery
+  document probed returned 404, so no raw files were saved. Absence recorded as
+  valid probe data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
