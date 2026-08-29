@@ -9,6 +9,17 @@ description: Touchten (Touchten Pte. Ltd.) is an award-winning mobile game studi
   Touchten won the Google Play Indonesia Games Contest and received the Forbes
   Indonesia Rising Global Stars Award. The company publishes no developer portal or
   public API surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
